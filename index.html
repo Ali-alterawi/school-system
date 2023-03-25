@@ -34,11 +34,16 @@
                     <label for="birthday">Birthday:</label><br>
                     <input type="date"   id="birthday" name="birthday"><br>
 
-                    <input type="radio" id="male" name="gender" value="male" >
+                    <!-- <input type="radio" id="male" name="gender" value="male" >
                     <label class="ms" for="male"> male </label>
         
                     <input type="radio" id="female" name="gender" value="female">
-                    <label class="ms" for="female"> female </label><br>
+                    <label class="ms" for="female"> female </label><br> -->
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                    </select>
 
                     <label for="grade">grade:</label><br>
                     <input type="text" placeholder=" your grade" id="grade" name="grade"><br>
@@ -82,13 +87,8 @@
         </table>
       </div>
     </main>
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p>© 2022 Company, Inc. All rights reserved.</p>
-      <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-      </ul>
+    <div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">
+      <p class="text-align-center">© 2022 Company, Inc. All rights reserved.</p>
     </div>
 
 
@@ -104,7 +104,6 @@
 
 
     <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f834d0470b.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
