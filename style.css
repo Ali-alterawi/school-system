@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+header {
+    background-color: #e1d9d9;
+    width: 100%;
+    align-items: center;
+    padding: 10px 200px ;
+    position: fixed;
+}
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #601cfc;}
+
+@media (max-width:30rem) {
+    header{
+        padding: 0
+    }
+    .container {
+        flex-direction: column;
+        text-align: center;
+}}
+
+/* //////////////////////////////// */
+.section{
+    background-image: url(/img/education-day-arrangement-table-with-copy-space.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+form{
+    padding : 10rem 0px
+}
+label{
+    background-color: #e1d9d9;
+    color: #55725e;
+    border: #55725e solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    width : 100%;
+    margin-bottom: 10px;
+}
+.ms{
+    width: 50%;
+    display: block;
+    border-radius: 50%;
+}
+.sub{
+    text-align: center;
+    margin-top: 10px;
+    border-radius: .5rem;
+    width: 50%;
+}
+.table-1{
+    text-align: center;
+}
+table{
+    text-align: center;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/license/free">
+    <title>w4school</title>
+</head>
+<body>
+     <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">w4school</a>
+            <nav class="navigation">
+                <a href="#services">ACADEMICS</a>
+                <a href="#projects">ADMISSIONS</a>
+                <a href="#contact">ABOUT</a>
+        </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <main>
+        <div class="section">
+            <div class="container">
+
+                <form  id="studentInfo">
+                    <label for="fName">Full name:</label><br>
+                    <input type="text" placeholder="your full name"  id="fName" name="fName"><br>
+
+                    <label for="birthday">Birthday:</label><br>
+                    <input type="date"   id="birthday" name="birthday"><br>
+
+                    <input type="radio" id="male" name="gender" value="male" >
+                    <label class="ms" for="male"> male </label>
+        
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label class="ms" for="female"> female </label><br>
+
+                    <label for="grade">grade:</label><br>
+                    <input type="text" placeholder=" your grade" id="grade" name="grade"><br>
+
+                    <label for="phoneNumber">phone number:</label><br>
+                    <input type="text" placeholder="00962" id="phoneNumber" name="phoneNumber"><br>
+
+
+                    <input  class="sub" type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+        <!-- <section class="table-1">
+            <h2>Student Information</h2>
+            <table>
+                <tr>
+                  <th>Full Name</th>
+                  <th>Date of Birth</th>
+                  <th>Gender</th> 
+                  <th>Phone</th> 
+                  <th>Grade</th> 
+              </table>
+        </section> -->
+
+        <!--Start Table -->
+    <div class="tableCon container-fluid ">
+        <table class="table caption-top table-light">
+          <legend class="fw-bold fs-2 text-white mb-5">Current Student Information</legend>
+          <thead class="table-light" id="T-Head">
+            <tr>
+              <th scope="col">Full Name</th>
+              <th scope="col">Date of Birth</th>
+              <th scope="col">Gender</th>
+              <th scope="col">Phone</th>
+              <th scope="col">Grade</th>
+            </tr>
+          </thead>
+          <tbody id="Submit-Info">
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2022 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f834d0470b.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
