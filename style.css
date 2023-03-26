@@ -94,3 +94,25 @@ input{
     border-radius: 5px;
     width: 100%;
 }
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+#cards img{
+    width: 4rem;
+}
+#cards div{
+margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+#cards div ul{
+    list-style: none;
+}
