@@ -105,13 +105,13 @@ form1.addEventListener("submit", function(e){
   phone = e.target.phoneNumber.value;
   // console.log(date, gender, major, photo);
 
-  let student = new info(fName,date,gender,major,photo,phone);
+  let student = new Info(fName,date,gender,major,photo,phone);
   arrr.push(student);
   localStorage.setItem("arrr",JSON.stringify(arrr));
   render()
 } );
 
-function info(fName,date,gender,major,photo,phone) {
+function Info(fName,date,gender,major,photo,phone) {
   this.fName = fName;
   this.date = date;
   this.gender = gender; 
